@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   background: var(--color-background);
+  
 }
 
 main {
@@ -14,6 +15,8 @@ main {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  background: var(--color-primary) url('../../assets/images/success-background-rotated.svg') no-repeat center;
+
 }
 
 main form legend {

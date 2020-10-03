@@ -10,7 +10,6 @@ function ProffyBanner() {
     <div className="bannerContainer">
       <div className="containerText">
         <img src={logoImg} alt="Proffy" />
-        <h1>Sua plataforma de estudos online.</h1>
       </div>
     </div>
   );
