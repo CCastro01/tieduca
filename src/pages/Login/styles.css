@@ -47,9 +47,10 @@ form a {
   max-width: 35rem;
   display: flex;
   position: absolute;
-  bottom: 3rem;
+  bottom: 6rem;
   align-items: flex-start;
   justify-content: space-between;
+
 }
 
 .contentFooter p {

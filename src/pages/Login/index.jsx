@@ -4,7 +4,6 @@ import ProffyBanner from '../../components/ProffyBanner';
 // import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
 
-import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 import './styles.css';
 import { Link } from 'react-router-dom';
@@ -32,7 +31,6 @@ function Login() {
               <p>Cadastre-se</p>
             </Link>
           </div>
-          <p>É de Graça <img src={purpleHeartIcon} alt="Coração roxo" /> </p>
         </div>
 
       </main>
