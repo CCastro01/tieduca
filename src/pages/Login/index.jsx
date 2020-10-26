@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ProffyBanner from '../../components/ProffyBanner';
-// import AuthInput from '../../components/AuthInput';
+import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
 
 
@@ -16,10 +16,10 @@ function Login() {
       <main>
         <form>
           <legend>Fazer Login</legend>
-          {/* <AuthInput label="E-mail" name="email" position="top" /> */}
-          {/* <AuthInput label="Senha" name="senha" position="bot" type="password" password /> */}
-          <Link to="/forgot">
-            <p>Esqueci minha senha</p>
+          <AuthInput label="E-mail" name="email" position="top" />
+          <AuthInput label="Senha" name="senha" position="bot" type="password" password />
+          <Link to="/forgot" id="forgot">
+              <a>Esqueci minha senha</a>
           </Link>
           <AuthButton value="Entrar" />
         </form>

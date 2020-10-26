@@ -11,7 +11,7 @@
 main {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 110%;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
@@ -31,16 +31,15 @@ main form {
   max-width: 35rem;
 }
 
-form p {
-  font: Poppins 1.4rem;
+
+form {
+  font: 1.4rem Poppins;
   color: var(--color-text-complement);
-  text-align: center;
-  padding: 1.5rem 0 3.5rem;
+  text-decoration: none;
+  margin: 2.6rem 0;
+
 }
 
-form a {
-  text-decoration: none;
-}
 
 .contentFooter {
   width: 80%;
