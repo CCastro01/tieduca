@@ -33,11 +33,20 @@ main form {
 
 form #forgot{
   display: flex;
+  justify-content: space-between;
+ align-items: center;
+
 }
+
+form #forgot #span-lembrar-me{
+  margin-left: -60px;
+  color: var(--color-text-in-primary);
+  font-weight: 400;
+}
+
 
 form #forgot #lembrar{
   align-self: center;
-  justify-content: space-between;
 }
 
 form a {
@@ -45,11 +54,12 @@ form a {
 
 }
 
-form a span{
+form a {
   font: 1.4rem Poppins;
-  color: var(--color-text-complement);
+  color: var(--color-text-in-primary);
   margin: 2.6rem 0;
   text-decoration: none;
+  font-weight: 400;
 
 }
 

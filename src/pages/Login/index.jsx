@@ -20,8 +20,9 @@ function Login() {
           <AuthInput label="Senha" name="senha" position="bot" type="password" password />
           <div id="forgot">
             <input type="checkbox"name="lembrar" id="lembrar"/>
+            <span id="span-lembrar-me">Lembrar-me</span>
             <Link to="/forgot" id="forgot">
-              <span>Esqueci minha senha</span>
+              Esqueci minha senha
             </Link>
           </div>
 
