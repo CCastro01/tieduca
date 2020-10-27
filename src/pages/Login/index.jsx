@@ -18,20 +18,29 @@ function Login() {
           <legend>Fazer Login</legend>
           <AuthInput label="E-mail" name="email" position="top" />
           <AuthInput label="Senha" name="senha" position="bot" type="password" password />
-          <Link to="/forgot" id="forgot">
-              <a>Esqueci minha senha</a>
-          </Link>
+          <div id="forgot">
+            <input type="checkbox"name="lembrar" id="lembrar"/>
+            <span id="span-lembrar-me">Lembrar-me</span>
+            <Link to="/forgot" id="forgot">
+              Esqueci minha senha
+            </Link>
+          </div>
+
+
           <AuthButton value="Entrar" />
+
+         
         </form>
 
         <div className="contentFooter">
           <div>
             <p>Não tem conta?</p>
             <Link to="/forgot">
-              <p>Cadastre-se</p>
+              Cadastre-se
             </Link>
           </div>
         </div>
+        
 
       </main>
     </div>
