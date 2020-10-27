@@ -8,7 +8,7 @@ function Routes() {
   return(
     <BrowserRouter>
       <Route path="/" exact component={Login} />
-      <Route path="cadastrar" exact component={Cadastrar} />
+      <Route path="/cadastrar" exact component={Cadastrar} />
       {/* <Route path="/home" component={Home} /> */}
     </BrowserRouter>
   );
