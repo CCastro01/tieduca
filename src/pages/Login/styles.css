@@ -72,6 +72,7 @@ form a {
   bottom: 6rem;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: -60px;
 
 }
 
@@ -80,7 +81,10 @@ form a {
   line-height: 20px;
 }
 
-.contentFooter a p {
+.contentFooter a {
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-text-title);
+  text-decoration-color: white;
+  text-decoration: none;
+
 }

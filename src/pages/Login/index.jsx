@@ -28,16 +28,19 @@ function Login() {
 
 
           <AuthButton value="Entrar" />
+
+         
         </form>
 
         <div className="contentFooter">
           <div>
             <p>Não tem conta?</p>
             <Link to="/forgot">
-              <p>Cadastre-se</p>
+              Cadastre-se
             </Link>
           </div>
         </div>
+        
 
       </main>
     </div>
