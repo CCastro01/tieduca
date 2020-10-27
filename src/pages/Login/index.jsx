@@ -18,9 +18,14 @@ function Login() {
           <legend>Fazer Login</legend>
           <AuthInput label="E-mail" name="email" position="top" />
           <AuthInput label="Senha" name="senha" position="bot" type="password" password />
-          <Link to="/forgot" id="forgot">
-              <a>Esqueci minha senha</a>
-          </Link>
+          <div id="forgot">
+            <input type="checkbox"name="lembrar" id="lembrar"/>
+            <Link to="/forgot" id="forgot">
+              <span>Esqueci minha senha</span>
+            </Link>
+          </div>
+
+
           <AuthButton value="Entrar" />
         </form>
 
