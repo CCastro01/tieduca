@@ -12,8 +12,8 @@ function Login() {
 
   return (
     <div className="page-login">
-      <ProffyBanner />
-      <main>
+      <ProffyBanner/>
+      <main id="mainLogin">
         <form>
           <legend>Fazer Login</legend>
           <AuthInput label="E-mail" name="email" position="top" />
@@ -35,7 +35,7 @@ function Login() {
         <div className="contentFooter">
           <div>
             <p>Não tem conta?</p>
-            <Link to="/forgot">
+            <Link to="/cadastrar">
               Cadastre-se
             </Link>
           </div>
