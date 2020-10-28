@@ -7,11 +7,18 @@
   background: var(--color-background);
   
 }
+/* #container-left{
+  padding: 300px;
+} */
 
-main {
+img{
+  margin: 180px;
+}
+
+#mainLogin {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 110%;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
@@ -19,28 +26,50 @@ main {
 
 }
 
-main form legend {
+#mainLogin form legend {
   font: 600 3.6rem Poppins;
   line-height: 3.6rem;
   padding-bottom: 5rem;
   color: var(--color-text-title);
 }
 
-main form {
+#mainLogin form {
   width: 80%;
   max-width: 35rem;
 }
 
-form p {
-  font: Poppins 1.4rem;
-  color: var(--color-text-complement);
-  text-align: center;
-  padding: 1.5rem 0 3.5rem;
+form #forgot{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+
+}
+
+form #forgot #span-lembrar-me{
+  margin-left: -60px;
+  color: var(--color-text-in-primary);
+  font-weight: 400;
+}
+
+
+form #forgot #lembrar{
+  align-self: center;
 }
 
 form a {
   text-decoration: none;
+
 }
+
+form a {
+  font: 1.4rem Poppins;
+  color: var(--color-text-in-primary);
+  margin: 2.6rem 0;
+  text-decoration: none;
+  font-weight: 400;
+
+}
+
 
 .contentFooter {
   width: 80%;
@@ -50,6 +79,7 @@ form a {
   bottom: 6rem;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: -60px;
 
 }
 
@@ -58,7 +88,10 @@ form a {
   line-height: 20px;
 }
 
-.contentFooter a p {
+.contentFooter a {
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-text-title);
+  text-decoration-color: white;
+  text-decoration: none;
+
 }
