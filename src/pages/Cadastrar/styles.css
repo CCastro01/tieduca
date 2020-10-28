@@ -9,6 +9,13 @@
   
 }
 
+#container-right{
+  color: var(--color-primary);
+  height: 90vh;
+  width: 400px;
+  margin-left: -400;
+}
+
 main {
   display: flex;
   align-items: center;

@@ -7,8 +7,15 @@
   background: var(--color-background);
   
 }
+/* #container-left{
+  padding: 300px;
+} */
 
-main {
+img{
+  margin: 180px;
+}
+
+#mainLogin {
   display: flex;
   align-items: center;
   width: 110%;
@@ -19,14 +26,14 @@ main {
 
 }
 
-main form legend {
+#mainLogin form legend {
   font: 600 3.6rem Poppins;
   line-height: 3.6rem;
   padding-bottom: 5rem;
   color: var(--color-text-title);
 }
 
-main form {
+#mainLogin form {
   width: 80%;
   max-width: 35rem;
 }
