@@ -4,6 +4,8 @@ import ProffyBanner from '../../components/ProffyBanner';
 import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
 
+import logoImg from '../../assets/images/logo.svg';
+
 
 import './styles.css';
 import { Link } from 'react-router-dom';
@@ -11,15 +13,19 @@ import { Link } from 'react-router-dom';
 function Login() {
 
   return (
+
     <div className="page-login">
-      <ProffyBanner/>
+      
+      
+      <ProffyBanner img={logoImg}/>
+
       <main id="mainLogin">
         <form>
           <legend>Fazer Login</legend>
           <AuthInput label="E-mail" name="email" position="top" />
           <AuthInput label="Senha" name="senha" position="bot" type="password" password />
           <div id="forgot">
-            <input type="checkbox"name="lembrar" id="lembrar"/>
+            <input type="checkbox" name="lembrar" id="lembrar" />
             <span id="span-lembrar-me">Lembrar-me</span>
             <Link to="/forgot" id="forgot">
               Esqueci minha senha
@@ -29,7 +35,7 @@ function Login() {
 
           <AuthButton value="Entrar" />
 
-         
+
         </form>
 
         <div className="contentFooter">
@@ -40,7 +46,7 @@ function Login() {
             </Link>
           </div>
         </div>
-        
+
 
       </main>
     </div>

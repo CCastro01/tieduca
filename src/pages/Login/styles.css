@@ -7,6 +7,13 @@
   background: var(--color-background);
   
 }
+/* #container-left{
+  padding: 300px;
+} */
+
+img{
+  margin: 180px;
+}
 
 #mainLogin {
   display: flex;

@@ -4,8 +4,11 @@ import ProffyBanner from '../../components/ProffyBanner';
 import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
 
+import logoImg from '../../assets/images/logo-white.svg';
+
+
 import './styles.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Cadastrar() {
 
@@ -30,7 +33,7 @@ function Cadastrar() {
       </form>
       
     </main>
-      <ProffyBanner/>
+      <ProffyBanner img={logoImg}/>
     </div>
   )
 
