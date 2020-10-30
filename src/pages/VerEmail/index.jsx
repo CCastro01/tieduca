@@ -1,16 +1,19 @@
 import React from 'react';
 
+import ProffyBanner from '../../components/ProffyBanner';
 import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
+
 import logoImg from '../../assets/images/logo-white.svg';
-import ProffyBanner from '../../components/ProffyBanner';
+
+
 import './styles.css';
+import { Link } from 'react-router-dom';
 
-
-function Cadastro() {
+function EsqSenha() {
 
   return (
-    <div className="page-cadastar">
+    <div className="page-ver-email">
 
     <main>
       <form>
@@ -30,11 +33,10 @@ function Cadastro() {
       </form>
       
     </main>
-      
+      <ProffyBanner img={logoImg}/>
     </div>
   )
 
 }
 
-export default Cadastro;
-
+export default EsqSenha;
