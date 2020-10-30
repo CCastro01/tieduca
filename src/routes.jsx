@@ -9,6 +9,8 @@ function Routes() {
     <BrowserRouter>
       <Route path="/" exact component={Login} />
       <Route path="/cadastrar" exact component={Cadastrar} />
+      <Route path="/forgot" exact component={Cadastrar} />
+      
       {/* <Route path="/home" component={Home} /> */}
     </BrowserRouter>
   );
