@@ -11,9 +11,9 @@ function Routes() {
   return(
     <BrowserRouter>
       <Route path="/" exact component={Login} />
-      <Route path="/cadastrar"  component={Cadastrar} />
-      <Route path="/forgot" component={EsqSenha} />
-      <Route path="/verification"  component={VerEmail} />
+      <Route path="/cadastrar" exact component={Cadastrar} />
+      <Route path="/forgot"exact component={EsqSenha} />
+      <Route path="/verification" exact component={VerEmail} />
       
       {/* <Route path="/home" component={Home} /> */}
     </BrowserRouter>

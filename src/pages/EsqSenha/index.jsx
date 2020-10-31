@@ -31,7 +31,7 @@ function EsqSenha() {
       </form>
       
     </main>
-      <ProffyBanner img={logoImg} color="black"/>
+      <ProffyBanner img={logoImg} />
     </div>
   )
 

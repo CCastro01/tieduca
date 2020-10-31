@@ -10,7 +10,7 @@ import logoImg from '../../assets/images/logo-white.svg';
 import './styles.css';
 import { Link } from 'react-router-dom';
 
-function EsqSenha() {
+function VerEmail() {
 
   return (
     <div className="page-ver-email">
@@ -39,4 +39,4 @@ function EsqSenha() {
 
 }
 
-export default EsqSenha;
+export default VerEmail;
