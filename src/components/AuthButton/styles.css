@@ -16,7 +16,7 @@
 
 .AuthBtn:disabled {
   background-color: var(--color-disabled-button);
-  color: var(--color-text-complement);
+  color: var(--color-title-in-primary);
 }
 
 .AuthBtn:disabled:hover {

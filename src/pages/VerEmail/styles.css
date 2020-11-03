@@ -16,7 +16,7 @@
     margin-left: -400;
   }
   
-  main {
+  .main-ver-email {
     display: flex;
     align-items: center;
     width: 110%;
@@ -27,14 +27,14 @@
   
   } 
   
-  main form legend {
+  .main-ver-email form legend {
     font: 900 3.6rem Poppins;
-    line-height: 3.6rem;
+    line-height: 6.6rem;
     padding-bottom: 5rem;
     color: var(--color-primary);
   }
   
-  main form {
+  .main-ver-email form {
     width: 80%;
     max-width: 35rem;
   }

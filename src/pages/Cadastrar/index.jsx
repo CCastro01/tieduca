@@ -15,7 +15,7 @@ function Cadastrar() {
   return (
     <div className="page-cadastar">
 
-    <main>
+    <main className="main-cadastrar">
       <form>
           <legend>Cadastro</legend> 
           

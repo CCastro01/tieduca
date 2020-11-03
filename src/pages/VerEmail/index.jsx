@@ -15,7 +15,7 @@ function VerEmail() {
   return (
     <div className="page-ver-email">
 
-    <main>
+    <main className="main-ver-email">
       <form>
           <legend>Cadastro</legend> 
           

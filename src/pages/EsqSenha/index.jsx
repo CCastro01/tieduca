@@ -15,7 +15,7 @@ function EsqSenha() {
   return (
     <div className="page-esq-senha">
 
-    <main>
+    <main className="main-esq-senha">
       <form>
           <legend>Esqueceu {<br/>} sua senha?</legend> 
           
@@ -25,6 +25,7 @@ function EsqSenha() {
 
           <AuthInput label="E-mail" name="nome" position="center" />
 
+          <br/>
           
           <AuthButton id="enviar" value="Enviar" />
           
