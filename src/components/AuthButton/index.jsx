@@ -4,7 +4,7 @@ import './styles.css';
 
  function AuthButton({props}) {
   return (
-    <input className="AuthBtn" disabled type="submit" {...props}/>
+    <input className="AuthBtn" type="submit" {...props}/>
   )
 }
 

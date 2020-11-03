@@ -16,8 +16,10 @@
   --color-box-footer: #FAFAFC;
 
   /* NOVAS  */
-  --color-button-enviar: #DCDCE5;
+  --color-button-enviar: #4CB5F2;
+  --color-button-enviar-hover: #67c3f8;
   --color-text-input: #9C98A6;
+
 }
 * {
   margin: 0;
