@@ -27,6 +27,7 @@ function Cadastrar() {
           <AuthInput label="Nome" name="nome" position="top" />
           <AuthInput label="E-mail" name="email" position="center" />
           <AuthInput label="Senha" name="senha" position="bot" type="password" password />
+          <br/><br/>
           
           <AuthButton id="cadastro" value="Concluir cadastro" />
           

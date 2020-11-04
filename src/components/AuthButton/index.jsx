@@ -2,9 +2,9 @@ import React from 'react';
 
 import './styles.css';
 
- function AuthButton({props}) {
+ function AuthButton({props, title}) {
   return (
-    <input className="AuthBtn" type="submit" {...props}/>
+    <input className="AuthBtn" title="" type="submit" {...props}/>
   )
 }
 

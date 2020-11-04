@@ -19,7 +19,7 @@
   .main-esq-senha {
     display: flex;
     align-items: center;
-    width: 110%;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
