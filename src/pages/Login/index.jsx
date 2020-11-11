@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProffyBanner from '../../components/ProffyBanner';
+import ProjectBanner from '../../components/ProjectBanner';
 import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
 
@@ -17,7 +17,7 @@ function Login() {
     <div className="page-login">
       
       
-      <ProffyBanner img={logoImg}/>
+      <ProjectBanner img={logoImg}/>
 
       <main id="mainLogin">
         <form>

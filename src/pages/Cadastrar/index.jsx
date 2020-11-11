@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProffyBanner from '../../components/ProffyBanner';
+import ProjectBanner from '../../components/ProjectBanner';
 import AuthInput from '../../components/AuthInput';
 import AuthButton from '../../components/AuthButton';
 
@@ -34,7 +34,7 @@ function Cadastrar() {
       </form>
       
     </main>
-      <ProffyBanner img={logoImg}/>
+      <ProjectBanner img={logoImg}/>
     </div>
   )
 
