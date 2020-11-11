@@ -10,12 +10,12 @@ import logoImg from '../../assets/images/logo-white.svg';
 import './styles.css';
 import { Link } from 'react-router-dom';
 
-function Cadastrar() {
+function VerEmail() {
 
   return (
-    <div className="page-cadastar">
+    <div className="page-ver-email">
 
-    <main className="main-cadastrar">
+    <main className="main-ver-email">
       <form>
           <legend>Cadastro</legend> 
           
@@ -27,7 +27,6 @@ function Cadastrar() {
           <AuthInput label="Nome" name="nome" position="top" />
           <AuthInput label="E-mail" name="email" position="center" />
           <AuthInput label="Senha" name="senha" position="bot" type="password" password />
-          <br/><br/>
           
           <AuthButton id="cadastro" value="Concluir cadastro" />
           
@@ -40,4 +39,4 @@ function Cadastrar() {
 
 }
 
-export default Cadastrar;
+export default VerEmail;

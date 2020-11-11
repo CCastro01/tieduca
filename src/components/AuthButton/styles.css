@@ -2,7 +2,7 @@
   width: 100%;
   height: 5.6rem;
   border-radius: 0.8rem;
-  background: var(--color-secondary);
+  background: var(--color-button-enviar);
   border: 0;
   color: var(--color-title-in-primary);
   font: 600 Archivo 1.6rem;
@@ -10,13 +10,13 @@
 }
 
 .AuthBtn:hover {
-  background: var(--color-secondary-dark);
+  background: var(--color-button-enviar-hover);
   cursor: pointer;
 }
 
 .AuthBtn:disabled {
   background-color: var(--color-disabled-button);
-  color: var(--color-text-complement);
+  color: var(--color-title-in-primary);
 }
 
 .AuthBtn:disabled:hover {

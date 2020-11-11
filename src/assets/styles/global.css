@@ -1,13 +1,8 @@
 :root {
   font-size: 60%;
   --color-background: #f0f0f7da;
-  --color-primary-lighter: #9871F5;
   --color-primary-light: #4395e7;
   --color-primary: #114A83;
-  --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842C2;
-  --color-secondary: #04D361;
-  --color-secondary-dark: #04BF58;
   --color-title-in-primary: #FFFFFF;
   --color-text-in-primary: #a7a7a7;
   --color-text-title: #ffffff;
@@ -19,6 +14,12 @@
   --color-button-text: #FFFFFF;
   --color-box-base: #FFFFFF;
   --color-box-footer: #FAFAFC;
+
+  /* NOVAS  */
+  --color-button-enviar: #4CB5F2;
+  --color-button-enviar-hover: #67c3f8;
+  --color-text-input: #9C98A6;
+
 }
 * {
   margin: 0;
